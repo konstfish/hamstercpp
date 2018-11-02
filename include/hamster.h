@@ -35,6 +35,7 @@ private:
 public:
   Hamster();
   Hamster(int k);
+  Hamster(std::string n);
   Hamster(std::string n, int k);
 
   ~Hamster();
