@@ -2,6 +2,21 @@
 
 using namespace std;
 
+void init(){
+  system("clear");
+  cout << " _                         _                                \n";
+  cout << "| |                       | |                                \n";
+  cout << "| |__   __ _ _ __ ___  ___| |_ ___ _ __ ___ _ __  _ __       \n";
+  cout << "| '_ \\ / _` | '_ ` _ \\/ __| __/ _ \\ '__/ __| '_ \\| '_ \\ \n";
+  cout << "| | | | (_| | | | | | \\__ \\ ||  __/ |_| (__| |_) | |_) |   \n";
+  cout << "|_| |_|\\__,_|_| |_| |_|___/\\__\\___|_(_)\\___| .__/| .__/  \n";
+  cout << "                                           | |   | |         \n";
+  cout << "                                           |_|   |_|         \n";
+
+  cout << "start?";
+  cin.ignore();
+}
+
 Hamster::Hamster(){
   init();
   korn = 0;
@@ -29,21 +44,6 @@ Hamster::Hamster(std::string n, int k){
 
 Hamster::~Hamster(){
   cout << "Hamster gestorben :(" << endl;
-}
-
-void Hamster::init(){
-  system("clear");
-  cout << "  _                         _                                \n";
-  cout << "| |                       | |                                \n";
-  cout << "| |__   __ _ _ __ ___  ___| |_ ___ _ __ ___ _ __  _ __       \n";
-  cout << "| '_ \\ / _` | '_ ` _ \\/ __| __/ _ \\ '__/ __| '_ \\| '_ \\ \n";
-  cout << "| | | | (_| | | | | | \\__ \\ ||  __/ |_| (__| |_) | |_) |   \n";
-  cout << "|_| |_|\\__,_|_| |_| |_|___/\\__\\___|_(_)\\___| .__/| .__/  \n";
-  cout << "                                           | |   | |         \n";
-  cout << "                                           |_|   |_|         \n";
-
-  cout << "start?";
-  cin.ignore();
 }
 
 void Hamster::fwd(){
