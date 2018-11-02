@@ -4,4 +4,4 @@
 
 ## screens
 
-![example](screens/showcase.gif)
+![example](screens/example.gif)
